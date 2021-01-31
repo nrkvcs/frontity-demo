@@ -2,8 +2,8 @@ const settings = {
   "name": "wpcamp-demo",
   "state": {
     "frontity": {
-      "url": "https://test.frontity.io",
-      "title": "Test Frontity Blog",
+      "url": "https://dev21.weband.hu/",
+      "title": "weband Blog",
       "description": "WordPress installation for Frontity development"
     }
   },
@@ -14,12 +14,12 @@ const settings = {
         "theme": {
           "menu": [
             [
-              "Home",
+              "cimlap",
               "/"
             ],
             [
-              "Nature",
-              "/category/nature/"
+              "design",
+              "/category/design/"
             ],
             [
               "Travel",
@@ -45,7 +45,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "api": "https://test.frontity.io/wp-json"
+          "api": "https://dev21.weband.hu/wp-json"
         }
       }
     },
